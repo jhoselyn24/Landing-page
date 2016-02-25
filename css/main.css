@@ -1,0 +1,89 @@
+*{
+	font-family: arial,sans-serif;
+	font-family: 'Open Sans', sans-serif;
+
+}
+header{
+	padding-top: 10px;
+}
+header img{
+	width: 200px;
+}
+header nav{
+	float: right;
+	margin: 10px 0;
+}
+header a{
+	text-decoration: none;
+	color: silver;
+	margin-left: 30px;
+	font-weight: 600;
+}
+header a:hover{
+	text-decoration: none;
+	color: black;
+	margin-left: 30px;
+}
+section {
+	background: #808080;
+}
+section{
+	padding-top: 50px;
+	padding-bottom: 70px;
+}
+h1{
+	color: white;
+	font-size: 3.5rem;
+}
+.text{
+	color: white;
+	margin-right: 87px;
+}
+.box-form{
+	background: #9A9A9A;
+	border-radius: 7px;
+	text-align: center;
+	padding: 15px;
+}
+.text-form{
+	color: white;
+	font-weight: bold;
+	text-align: center;
+}
+input {
+	padding: 7px 5px;
+	margin: 8px 0;
+	border: 1px #ccc solid;
+	width: 230px;
+}
+.enviar {
+	background-color: #3EB0F7;
+	color: white;
+	padding: 10px 84px;
+	font-size: 15px;
+	border: none;
+}
+@media screen and (min-width: 535px) and (max-width: 824px) {
+    .container{
+    	width: 510px;
+    	padding-left: 14px; 
+	    padding-right: 14px;
+	    margin: 0px auto;
+	    position: relative;
+    }
+    .col-8, .col-4{
+    	width: 100%;
+    }
+    .text{
+	color: white;
+	margin-bottom: 40px;
+	margin-right: 0px;
+    }
+    input {
+	padding: 7px 5px;
+	margin: 8px 0;
+	border: 1px #ccc solid;
+	width: 395px;
+    height: 38px
+    }
+}
